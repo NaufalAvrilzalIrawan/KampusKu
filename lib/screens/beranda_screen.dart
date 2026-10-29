@@ -13,13 +13,20 @@ class BerandaScreen extends StatelessWidget {
       sks: 3,
       hari: 'Senin',
     ),
-    MataKuliah(kode: 'IF-021', nama: 'Basis Data', sks: 3, hari: 'Selasa'),
+    MataKuliah(
+      kode: 'IF-021',
+      nama: 'Basis Data',
+      sks: 3,
+      hari: 'Selasa',
+    ),
   ];
 
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      appBar: AppBar(title: const Text('KampusKu')),
+      appBar: AppBar(
+        title: const Text('KampusKu'),
+      ),
       body: ListView(
         children: [
           Padding(
